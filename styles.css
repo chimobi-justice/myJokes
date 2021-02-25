@@ -17,3 +17,88 @@ body {
 .jokeBtn:focus {
     outline: none;
 }
+
+@media screen and (max-width: 577px) {
+    .container {
+        background: #fff;
+        color: #000;
+        height: auto;
+        margin-top: 12rem; 
+    }
+    .container > h1{
+        font-size: 2.5em 
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .container {
+        background: #fff;
+        color: #000;
+        height: auto;
+        margin-top: 12rem; 
+    }
+    .container > h1{
+        font-size: 1.9em 
+    }
+}
+
+
+@media screen and (max-width: 411px) {
+    .container {
+        background: #fff;
+        color: #000;
+        height: auto;
+        margin-top: 12rem; 
+    }
+    .container > h1{
+        font-size: 1.8em 
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .container {
+        background: #fff;
+        color: #000;
+        height: auto;
+        margin-top: 12rem; 
+    }
+    .container > h1{
+        font-size: 1.6em 
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .container {
+        background: #fff;
+        color: #000;
+        height: auto;
+        margin-top: 11rem; 
+    }
+    .container > h1{
+        font-size: 1.5em 
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .container {
+        background: #fff;
+        color: #000;
+        height: auto;
+        margin-top: 10rem; 
+    }
+    .container > h1{
+        font-size: 1.3em 
+    }
+}
+
+@media screen and (min-width: 578px) and (max-width: 992px){
+    .container {
+        background: #fff;
+        color: #000;
+        height: auto;
+        margin-top: 14rem; 
+    }
+    .container > h1{
+        font-size: 3em 
+    }
+}
